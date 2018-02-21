@@ -1,0 +1,31 @@
+// Template for Google Homepage
+@import "doodle-template";
+@import url("https://fonts.googleapis.com/css?family=VT323");
+
+/* Your Awesome Doodle */
+svg {
+	height: 300px;
+	width: 600px;
+}
+
+#stage {
+	//background: #ccc;
+	height: 300px;
+	width: 600px;
+}
+
+#ENGAGE_KEY:active,
+#ABORT_KEY:active {
+	transform: translateY(7px);
+
+	transition: transform 0.1s;
+}
+
+text {
+	opacity: 0;
+}
+
+.appear {
+	opacity: 1;
+	transition: opacity 1s;
+}
